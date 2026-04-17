@@ -1,0 +1,17 @@
+site_name: Hipatia
+site_description: Documentação do Cluster Hipatia
+site_author: Darlon Vasata
+site_url: https://darlon.github.io/hipatia/
+
+theme:
+  name: material
+  language: pt-BR
+
+nav:
+  - Sobre: index.md
+  - Arquitetura: arquitetura.md
+  - Ferramentas: ferramentas.md
+  - Solicitar Acesso: solicitar-acesso.md
+  - Como utilizar: como-utilizar.md
+  - Grupos de Pesquisa: grupos-pesquisa.md
+  - Publicações: publicacoes.md

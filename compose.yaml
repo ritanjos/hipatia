@@ -1,0 +1,9 @@
+services:
+  mkdocs:
+    build: .
+    container_name: cluster-docs
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    command: mkdocs serve --dev-addr=0.0.0.0:8000
