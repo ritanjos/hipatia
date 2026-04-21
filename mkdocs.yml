@@ -1,7 +1,7 @@
 site_name: Hipatia
 site_description: Documentação do Cluster Hipatia
 site_author: Darlon Vasata
-site_url: https://darlon.github.io/hipatia/
+site_url: https://ritanjos.github.io/hipatia/
 
 theme:
   name: material
