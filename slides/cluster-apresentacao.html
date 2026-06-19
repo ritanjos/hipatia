@@ -134,6 +134,11 @@ Dois nós interligados por rede interna, com `/home` e `/app` compartilhados via
 ]
 
 ---
+class: center, middle
+
+![Diagrama do cluster](img/cluster.excalidraw.svg)
+
+---
 template: inverse
 
 ## Parte 1
@@ -514,11 +519,8 @@ O **SLURM** *(Simple Linux Utility for Resource Management)* é o gerenciador de
 
 ### Fluxo de submissão
 
-<div class="mermaid">
-graph LR
-    A([Você]) -->|sbatch script.sh| B[Fila SLURM]
-    B -->|aguarda recursos disponíveis| C[Execução nos nós alocados]
-</div>
+
+![](img/fluxo_submissao.excalidraw.svg)
 
 ### Comandos essenciais
 
